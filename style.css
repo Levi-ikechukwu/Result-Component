@@ -28,7 +28,7 @@ styling of the div tages
    margin-right: -35px;
    text-align: center;
    border-radius: 35px;
-   background-image: linear-gradient(180deg, #6462dd, #0b07ff, #0808f0);
+   background-image: linear-gradient(180deg, #6e6cee, #0b07ff, #0808f0);
 }
 
 #right-container{
@@ -38,7 +38,7 @@ styling of the div tages
     margin-top: 0px;
     height: 23em;
     border-radius: 35px;
-    box-shadow: 0 1px 20px -10px;
+   
 }
 
 /**
