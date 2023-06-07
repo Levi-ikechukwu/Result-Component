@@ -25,20 +25,20 @@ styling of the div tages
    width: 17em;
    height: 23em;
    position:  relative; 
-   margin: -30px;
+   margin-right: -35px;
    text-align: center;
-   border-radius: 30px;
-   background-image: linear-gradient(180deg, #5350e2, #0b08a1);
+   border-radius: 35px;
+   background-image: linear-gradient(180deg, #6462dd, #0b07ff, #0808f0);
 }
 
 #right-container{
     border: none;
     width: 18em;
     background-color: white;
-    margin-top: px;
+    margin-top: 0px;
     height: 23em;
-    border-radius: 30px;
-    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 35px;
+    box-shadow: 0 1px 20px -10px;
 }
 
 /**
@@ -49,7 +49,7 @@ rounded circle design
     height: 80px;
     width: 80px ;
     margin: 10% auto;
-   background-color: #2725d1;
+   background-color: #0400ff;
    padding: 30px;
    border-radius: 100%;
 }
@@ -58,17 +58,17 @@ rounded circle design
 .num
 {
     font-size: 70px;
-    margin: -10px;
+    margin: -16px;
     color: white;
 
 }
 
 .sc
 {
-  color: rgb(97, 91, 91); 
+  color: rgb(131, 122, 122); 
   font-weight: bolder;
-  font-size: 18px; 
-  margin: 1px;
+  font-size: 15px; 
+  margin: 3px;
   
 }
 
@@ -80,8 +80,9 @@ left container contents
 
 .par
 {
-    color: white;
-    font-size: 20px;
+    color: rgb(172, 168, 168);
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .head0{
@@ -92,8 +93,9 @@ left container contents
 }
 
 .lower-p{
-    color: white;
+    color: rgb(145, 142, 142);
     margin-top: -20px;
+    font-weight: bold;
 }
 
 
@@ -105,11 +107,12 @@ right container styling texts
     font-size: 20px;
     font-weight: bolder;
     padding-left: 40px;
+    padding-top: 10px;
     color: rgba(31, 18, 34, 0.856);
 }
 
 .col1{
-    background-color: rgb(255, 231, 221);
+    background-color: rgb(255, 250, 248);
     margin: 1px 20px 1px 40px;
     border-radius: 10px;
     padding: px;
@@ -118,7 +121,7 @@ right container styling texts
 
 .p1{
   padding: 10px;
-  color: rgb(253, 63, 49);
+  color: rgb(255, 144, 136);
   font-weight: bold;
 }
 
@@ -149,7 +152,7 @@ second row
 **/
 
 .col2{
-    background-color: rgb(252, 247, 205);
+    background-color: rgb(253, 251, 227);
     margin: 1px 20px 1px 40px;
     border-radius: 10px;
     padding: px;
@@ -158,7 +161,7 @@ second row
 
 .p2{
   padding: 10px;
-  color: rgba(253, 215, 0, 0.918);
+  color: rgba(255, 217, 0, 0.979);
   font-weight: bold;
 }
 
@@ -188,14 +191,14 @@ third row c
 **/
 
 .col3{
-    background-color: rgb(182, 248, 182);
+    background-color: rgb(237, 255, 237);
     margin: 1px 20px 1px 40px;
     border-radius: 10px;
 }
 
 .p3{
   padding: 10px;
-  color: rgb(53, 173, 63);
+  color: rgb(114, 207, 68);
   font-weight: bold;
 }
 
@@ -225,7 +228,7 @@ fourth row
 
 
 .col4{
-    background-color: rgb(211, 212, 255);
+    background-color: rgb(245, 245, 255);
     margin: 1px 20px 1px 40px;
     border-radius: 10px;
     padding: px;
@@ -291,7 +294,7 @@ button:hover{
     }
 
     #right-container{
-        box-shadow: none;
+        
         margin-top: 30px;
         margin-left: -20px;
     }
@@ -311,7 +314,7 @@ button:hover{
     #right-container{
         margin-left: -10px;
         margin-top: 25px;
-        box-shadow: 0;
+       
 }
 
 #right-container{
@@ -335,7 +338,7 @@ button:hover{
     #right-container{
         margin-left: -10px;
         margin-top: 20px;
-        box-shadow: 0;
+        
 }
 
 }
@@ -350,7 +353,6 @@ button:hover{
     #right-container{
         margin-left: 20px;
         margin-top: 20px;
-        box-shadow: 0;
     }
 }
 
