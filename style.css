@@ -294,6 +294,10 @@ button:hover{
         margin-top: 30px;
         margin-left: -20px;
     }
+
+    #left-container{
+        margin-top: 15px;
+    }
 }
 
 @media(min-width: 196px)
@@ -312,12 +316,16 @@ button:hover{
 
 @media(min-width: 178px)
 {
+    #left-container{
+        margin-top: 15px;
+    }
+
     #main-container{
         flex-wrap: wrap;
         
     }
     #right-container{
-        margin-left: 10px;
+        margin-left: -10px;
         margin-top: 20px;
         box-shadow: 0;
 }
@@ -327,6 +335,10 @@ button:hover{
 
 @media(min-width: 500px)
 {
+    #left-container{
+        margin-top: 15px;
+    }
+    
     #right-container{
         margin-left: 20px;
         margin-top: 20px;
