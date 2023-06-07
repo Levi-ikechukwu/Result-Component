@@ -314,14 +314,9 @@ button:hover{
     #right-container{
         margin-left: -10px;
         margin-top: 25px;
+        box-shadow: none;
        
 }
-
-#right-container{
-    margin-top: 20px;
-}
-
-
 
 }
 
@@ -338,6 +333,7 @@ button:hover{
     #right-container{
         margin-left: -10px;
         margin-top: 20px;
+        box-shadow: none;
         
 }
 
@@ -353,6 +349,7 @@ button:hover{
     #right-container{
         margin-left: 20px;
         margin-top: 20px;
+        box-shadow: none;
     }
 }
 
